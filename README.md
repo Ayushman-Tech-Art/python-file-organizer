@@ -1,23 +1,26 @@
 # Python File Organizer
 
-A simple automation script built using Python that organizes files into folders based on file extensions.
+A simple automation script built using Python that organizes files into folders based on their extensions. Say goodbye to messy directories!
 
-## Features
-- Automatically detects file types
-- Creates folders dynamically
-- Moves files into categorized directories
-- Improves file management efficiency
+## ✨ Features
 
-## Technologies Used
-- Python
-- os module
-- shutil module
+- 📂 **Automatic Detection** - Detects file types by extension
+- 📁 **Dynamic Folders** - Creates category folders automatically
+- 🔄 **Moves Files** - Organizes files into categorized directories
+- 🔤 **Case Insensitive** - Handles .JPG, .jpg, .PNG all same
+- 🔒 **Duplicate Handling** - Renames files if name already exists
+- 🛡️ **Error Handling** - Validates path before processing
 
-## How to Run
-1. Create a folder named "test_folder"
-2. Place random files inside it
-3. Run:
-   python file_organizer.py
+## 🛠️ Technologies Used
 
-## Author
-Ayushman Singh
+- **Language:** Python 3
+- **Modules:**
+  - `os` - File and directory operations
+  - `shutil` - Moving files
+
+## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/python-file-organizer.git
+   cd python-file-organizer
